@@ -88,7 +88,19 @@
   - stash：将当前工作现场存储起来
 
     - [储藏 stash](https://git-scm.com/book/zh/v1/Git-%E5%B7%A5%E5%85%B7-%E5%82%A8%E8%97%8F%EF%BC%88Stashing%EF%BC%89)
-    - 
+
+    - 存储工作现场：`git stash`
+
+      ![image-20181110231815769](/Users/leonuranus/learn/JavaLearn/assets/image-20181110231815769.png)
+
+    - 查看现有的存储：`git stash list`
+
+      ![image-20181110231930588](/Users/leonuranus/learn/JavaLearn/assets/image-20181110231930588.png)
+
+    - 恢复存储
+
+      - 一是用`git stash apply`恢复，但是恢复后，stash内容并不删除，你需要用`git stash drop`来删除；
+      - 另一种方式是用`git stash pop`，恢复的同时把stash内容也删了。
 
 ## Git原理
 
