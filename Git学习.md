@@ -73,7 +73,9 @@
 
     ![image-20181110214017527](/Users/leonuranus/learn/JavaLearn/assets/image-20181110214017527.png)
 
-  - 分支合并冲突
+  - 分支管理策略
+
+    使用
 
 
 
