@@ -45,5 +45,50 @@
 
   第二部使用`git commit`提交更改，是将暂存区的文件提交当前分支；
 
-  > 在改变文件后
+  > `git diff`,`git diff --cached`和`git diff head`的区别
+  >
+  > - git diff 是工作区和暂存区区比较
+  > - git diff --cached是暂存区区和仓库比较。
+  > - git diff head是工作区和仓库比较
+  >
+  > ![image-20181110173423855](/Users/leonuranus/learn/JavaLearn/assets/image-20181110173423855.png)
+  >
+  > 实验：对于test.md，有工作区版本，暂存区版本和仓库区版本。
+  >
+  > 1. 经过add, commit，此时三个版本相同
+  > 2. 修改再add，工作区版本和暂存区版本相同，仓库区版本则不同；
+  > 3. 再修改，不执行add，则三个版本都不相同。
+  >
+  > 仓库版本
+  >
+  > ```java
+  > This the master version.
+  > ```
+  >
+  > 暂存区版本；
+  >
+  > ```java
+  > This the master version.
+  > This is the stage version.
+  > ```
+  >
+  > 工作区版本
+  >
+  > ```java
+  > This the master version.
+  > This is the stage version.
+  > This is the working directory version.
+  > ```
+  >
+  > 执行第3步后，三个版本都不相同
+  >
+  > 使用`git diff`和`git diff --cached`和`git diff head`，可以看到
+  >
+  > - `git diff`是工作区版本和暂存区版本比较；
+  > - `git diff --cached`时暂存区版本和仓库版本比较。
+  > - `git diff head`是工作区和仓库区比较；
+  >
+  > ![image-20181110173010368](/Users/leonuranus/learn/JavaLearn/assets/image-20181110173010368.png)
+
+
 
