@@ -73,9 +73,17 @@
 
     ![image-20181110214017527](/Users/leonuranus/learn/JavaLearn/assets/image-20181110214017527.png)
 
-  - 分支管理策略
+  - 分支原理
 
-    使用
+    ![image-20181110223247368](/Users/leonuranus/learn/JavaLearn/assets/image-20181110223247368.png)
+
+    在合并分支时，默认使用`fast forward`模式，在删除分支后，分支的信息不会保存。
+
+    使用命令`git merge --no-ff`命令合并分支时，会生成一个新的commit。
+
+    ![image-20181110223622846](/Users/leonuranus/learn/JavaLearn/assets/image-20181110223622846.png)
+
+    ![image-20181110223808865](/Users/leonuranus/learn/JavaLearn/assets/image-20181110223808865.png)
 
 
 
