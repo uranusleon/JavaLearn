@@ -42,7 +42,40 @@
 
   - 此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改；
 
-- 
+- 分支
+
+  - 查看分支：`git branch`，命令会列出所有分支，当前分支前面会标一个`*`号。
+
+  - 创建分支：`git branch <name>`
+
+  - 切换分支：`git checkout <name>`
+
+  - 创建并切换分支：`git checkout -b <name>`
+
+  - ```shell
+    $ git checkout -b dev
+    Switched to a new branch 'dev'
+    ```
+
+    `git checkout`命令加上`-b`参数表示创建并切换，相当于以下两条命令：
+
+    ```shell
+    $ git branch dev
+    $ git checkout dev
+    Switched to branch 'dev'
+    ```
+
+  - 合并某个分支到当前分支:`git merge <name>`用于合并分支
+
+    ![image-20181110213901037](/Users/leonuranus/learn/JavaLearn/assets/image-20181110213901037.png)
+
+  - 删除分支：`git branch -d <name>`用于删除分支
+
+    ![image-20181110214017527](/Users/leonuranus/learn/JavaLearn/assets/image-20181110214017527.png)
+
+  - 分支合并冲突
+
+
 
 ## Git原理
 
