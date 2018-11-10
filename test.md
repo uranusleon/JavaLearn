@@ -1,2 +1,2 @@
 This file is for branch Master.
-This is for branch dev. 
+This is for branch dev & feature1.
