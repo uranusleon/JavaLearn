@@ -4,3 +4,4 @@ Edit test.md in branch dev.
 Fix the issue 01.
 
 Test branch checkout for master.
+Test for branch dev.
