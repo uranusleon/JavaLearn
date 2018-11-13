@@ -4,4 +4,8 @@ Edit test.md in branch dev.
 Fix the issue 01.
 
 Test branch checkout for master.
+<<<<<<< Updated upstream
 Test for branch dev.
+=======
+Test nothing.
+>>>>>>> Stashed changes
