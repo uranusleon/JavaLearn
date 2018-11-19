@@ -67,7 +67,7 @@
 
   - 合并某个分支到当前分支:`git merge <name>`用于合并分支
 
-    ![image-20181110213901037](/Users/leonuranus/learn/JavaLearn/assets/image-20181110213901037.png)
+    ![image-20181110213901037](./assets/image-20181110213901037.png)
 
   - 删除分支：`git branch -d <name>`用于删除分支
 
