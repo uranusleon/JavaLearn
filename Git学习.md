@@ -71,17 +71,17 @@
 
   - 删除分支：`git branch -d <name>`用于删除分支
 
-    ![image-20181110214017527](/Users/leonuranus/learn/JavaLearn/assets/image-20181110214017527.png)
+    ![image-20181110214017527](./assets/image-20181110214017527.png)
 
   - 分支原理
 
-    ![image-20181110223247368](/Users/leonuranus/learn/JavaLearn/assets/image-20181110223247368.png)
+    ![image-20181110223247368](./assets/image-20181110223247368.png)
 
     在合并分支时，默认使用`fast forward`模式，在删除分支后，分支的信息不会保存。
 
     使用命令`git merge --no-ff`命令合并分支时，会生成一个新的commit。
 
-    ![image-20181110223622846](/Users/leonuranus/learn/JavaLearn/assets/image-20181110223622846.png)
+    ![image-20181110223622846](./assets/image-20181110223622846.png)
 
     ![image-20181110223808865](/Users/leonuranus/learn/JavaLearn/assets/image-20181110223808865.png)
 
@@ -119,7 +119,7 @@
 
   本地可以看到的目录，以目前学习的目录为例，下图的目录就是工作区。
 
-  ![image-20181110163903257](/Users/leonuranus/learn/JavaLearn/assets/image-20181110163903257.png)
+  ![image-20181110163903257](./assets/image-20181110163903257.png)
 
 - 版本库(Repository)
 
@@ -127,7 +127,7 @@
 
   Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支`master`，以及指向`master`的一个指针叫`HEAD`。
 
-  ![image-20181110164011195](/Users/leonuranus/learn/JavaLearn/assets/image-20181110164011195.png)
+  ![image-20181110164011195](./assets/image-20181110164011195.png)
 
   第一步使用`git add`的添加文件，是将文件从工作区添加到暂存区；
 
@@ -139,7 +139,7 @@
   > - git diff --cached是暂存区区和仓库比较。
   > - git diff head是工作区和仓库比较
   >
-  > ![image-20181110173423855](/Users/leonuranus/learn/JavaLearn/assets/image-20181110173423855.png)
+  > ![image-20181110173423855](./assets/image-20181110173423855.png)
   >
   > 实验：对于test.md，有工作区版本，暂存区版本和仓库区版本。
   >
@@ -176,7 +176,7 @@
   > - `git diff --cached`时暂存区版本和仓库版本比较。
   > - `git diff head`是工作区和仓库区比较；
   >
-  > ![image-20181110173010368](/Users/leonuranus/learn/JavaLearn/assets/image-20181110173010368.png)
+  > ![image-20181110173010368](./assets/image-20181110173010368.png)
 
 
 
